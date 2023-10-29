@@ -63,6 +63,8 @@ app.post("/api/notes", (req, res) => {
     }
 });
 
+app.delete("/api/notes/:id", (req, res) => {});
+
 
 // Send out the home page for all other GET requests
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, "public/index.html")));
