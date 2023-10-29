@@ -1,18 +1,1 @@
-[
-    {
-        "id":"cat",
-        "title":"Test Title",
-        "text":"Test text"
-    },
-    {
-        "id":"dog",
-        "title":"Aldi Run",
-        "text":"Get pancake mix and cereal and milk"
-    },
-    {
-        "id":"cow",
-        "title":"Wilder's Lunch",
-        "text":"Mac and cheese"
-    }
-    
-]
+[{"id":"e9a98907-0f0e-4222-803d-d0963bcece8b","title":"Wait for Mara to get home","text":"she is running to the grocery store\n"},{"id":"f9c69c2a-80bb-4a60-9084-46350cc455a4","title":" Add more items to the db","text":"how's this?"},{"id":"a66045c2-ae12-41ea-831e-e8384edac3eb","title":"Go Outside","text":"play play play play play play play"}]
