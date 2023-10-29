@@ -20,7 +20,6 @@ app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, "public/notes.
 // Send out the notes data
 app.get('/api/notes', (req, res) => res.json(notesData));
 
-
 // Send out the home page for all other GET requests
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, "public/index.html")));
 
