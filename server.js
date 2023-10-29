@@ -12,7 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 
 
 // Send out the home page
-app.get("/", (req, res) => res.sendFile(path.join(__dirname, "public/index.html")));
+app.get('*', (req, res) => res.sendFile(path.join(__dirname, "public/index.html")));
+
 
 
 
