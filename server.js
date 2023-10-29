@@ -10,3 +10,13 @@ app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+
+// Send out the home page
+app.get("/", (req, res) => res.sendFile(path.join(__dirname, "public/index.html")));
+
+
+
+
+app.listen(PORT, () =>
+    console.log(`Example app listening at http://localhost:${PORT}`)
+);
