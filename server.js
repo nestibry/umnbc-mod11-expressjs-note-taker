@@ -1,6 +1,9 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
+// import uniqueString from 'unique-string';
+// const uniqueString = require('unique-string');
+const { v4: uuidv4 } = require('uuid');
 const app = express();
 const notesData = require('./db/db.json');
 
@@ -26,14 +29,15 @@ app.post("/api/notes", (req, res) => {
     // Log that a POST request was received
     console.info(`${req.method} request received to add a new note`);
     console.info(req.body);
+    console.log(uuidv4());
     res.status(200).json({ status: "success" });
-
+    
     // const newUser = JSON.stringify(req.body);
 
     // fs.writeFile("signup.txt", newUser, (err) => {
-    //     if( err ) return res.status(500).json({ status: "error"} )
-    //     res.status(200).json({ status: "success" })
-    // });
+        //     if( err ) return res.status(500).json({ status: "error"} )
+        //     res.status(200).json({ status: "success" })
+        // });
 
 });
 
