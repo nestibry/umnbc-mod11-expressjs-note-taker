@@ -22,18 +22,6 @@ A note taker application that can be used to write and save notes. This applicat
 
 ![Notes Page Example](./_challenge_info/Assets/notes-page-example.png)
 
-#### Main Files: 
-
-- server.js
-- public/assets/js/index.js
-- db/db.json
-- package.json
-- README.md
-- public/
-    - index.html
-    - notes.html
-
-
 
 ## Installation 
 #### Invoking the application locally
@@ -52,6 +40,17 @@ npm install
 npm i -D nodemon
 nodemon server.js
 ```
+
+#### Main Files: 
+
+- server.js
+- public/assets/js/index.js
+- db/db.json
+- package.json
+- README.md
+- public/
+    - index.html
+    - notes.html
 
 
 ## Contributing
