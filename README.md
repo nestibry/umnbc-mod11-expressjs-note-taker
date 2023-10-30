@@ -38,18 +38,19 @@ A note taker application that can be used to write and save notes. This applicat
 ## Installation 
 #### Invoking the application locally
 
-1. Install Node.js locally & nodemon
+1. Install Node.js locally
 2. Clone or Fork the Repo
 3. Open Repo Directory in VS Code Integrated Terminal (or Git Bash)
-4. Execute `npm install` to install dependencies and `npm i nodemon`
+4. Execute `npm install` to install dependencies and `npm i -D nodemon` or `npm i -g nodemon`
 4. Execute `nodemon server.js` in a bash command-line
 5. Open `http://localhost/3001`
 
 
-#### Execute the following in a bash command-line to install dependencies:
+#### Execute the following in a bash command-line to install dependencies and invoke the application:
 ```
 npm install 
-npm i inquirer@8.2.4
+npm i -D nodemon
+nodemon server.js
 ```
 
 
@@ -64,9 +65,6 @@ npm i inquirer@8.2.4
 
 ## Credits
 - © 2023 edX Boot Camps LLC.
-- How to check if a string is a valid hex color represenation, [StackOverflow](https://stackoverflow.com/questions/8027423/how-to-check-if-a-string-is-a-valid-hex-color-representation)
-- How to test inquirer validation functions, [StackOverflow](https://stackoverflow.com/questions/8027423/how-to-check-if-a-string-is-a-valid-hex-color-representation)
-- ChatGPT3.5 Prompt: "in javascript, how to test an inquirer prompt function within a class using jest framework" => How to use the mockResolvedValue() method
 
 ## License
 
